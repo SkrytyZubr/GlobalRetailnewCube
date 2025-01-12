@@ -6,10 +6,63 @@
     <Name>GlobalRetailnewCube.database</Name>
     <FullPath>GlobalRetailnewCube.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Global Retailnew_cube.cube</Name>
+      <FullPath>Global Retailnew_cube.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Global Retailnew_cube.partitions</Name>
+          <FullPath>Global Retailnew_cube.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Dim Shipping.dim</Name>
+      <FullPath>Dim Shipping.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Product.dim</Name>
+      <FullPath>Dim Product.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Customer.dim</Name>
+      <FullPath>Dim Customer.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
+  <DataSources>
+    <ProjectItem>
+      <Name>New Global Retail DW.ds</Name>
+      <FullPath>New Global Retail DW.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>Global Retailnew_view.dsv</Name>
+      <FullPath>Global Retailnew_view.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
-      <Options />
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>New Global Retail DW</Id>
+            <Name>New Global Retail DW</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=MICHAL\MSSQLSERVER2019;Integrated Security=SSPI;Initial Catalog=new_GlobalRetailDW</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>New Global Retail DW</Id>
+            <Name>New Global Retail DW</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
     </Configuration>
   </Configurations>
 </Project>
