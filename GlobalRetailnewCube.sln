@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "GlobalRetailnewCube", "GlobalRetailnewCube\GlobalRetailnewCube.dwproj", "{F10E6A20-15F1-437B-A12C-5DA7A5D6F3DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F10E6A20-15F1-437B-A12C-5DA7A5D6F3DF}.Development|Default.ActiveCfg = Development
+		{F10E6A20-15F1-437B-A12C-5DA7A5D6F3DF}.Development|Default.Build.0 = Development
+		{F10E6A20-15F1-437B-A12C-5DA7A5D6F3DF}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9AD393A-7A89-4E2D-AADA-B910DF01CBEB}
+	EndGlobalSection
+EndGlobal
